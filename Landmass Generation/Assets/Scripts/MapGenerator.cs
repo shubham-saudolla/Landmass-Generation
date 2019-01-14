@@ -31,6 +31,7 @@ public class MapGenerator : MonoBehaviour
         display.DrawNoiseMap(noiseMap);
     }
 
+    // called whenever the script variables are changed in the inspector
     void OnValidate()
     {
         if (mapWidth < 1)
@@ -45,9 +46,9 @@ public class MapGenerator : MonoBehaviour
         {
             lacunarity = 1;
         }
-        if (octaves < 0)
+        if (octaves < 1)
         {
-            octaves = 0;
+            octaves = 1;
         }
     }
 }
