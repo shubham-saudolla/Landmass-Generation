@@ -162,16 +162,34 @@ MonoBehaviour:
   octaves: 4
   persistence: 0.5
   lacunarity: 2
-  seed: 21
+  seed: 44
   offset: {x: 0, y: 0}
   autoUpdate: 1
   regions:
-  - name: Water
+  - name: Water Deep
+    height: 0.3
+    color: {r: 0.2279804, g: 0.16509432, b: 1, a: 0}
+  - name: Water Shallow
     height: 0.4
-    color: {r: 0.1462264, g: 0.2408671, b: 1, a: 0}
-  - name: Land
+    color: {r: 0.2688679, g: 0.3148785, b: 1, a: 0}
+  - name: Sand
+    height: 0.45
+    color: {r: 0.9714305, g: 1, b: 0.4198113, a: 0}
+  - name: Grass
+    height: 0.55
+    color: {r: 0.26242283, g: 0.7735849, b: 0.025542913, a: 0}
+  - name: Grass 2
+    height: 0.6
+    color: {r: 0.16540584, g: 0.5566038, b: 0.18661536, a: 0}
+  - name: Rock
+    height: 0.7
+    color: {r: 0.3773585, g: 0.33490855, b: 0.25453898, a: 0}
+  - name: Rock 2
+    height: 0.9
+    color: {r: 0.3490566, g: 0.25762412, b: 0.20910466, a: 0}
+  - name: Snow
     height: 1
-    color: {r: 0, g: 0.8301887, b: 0.047660146, a: 0}
+    color: {r: 0.8773585, g: 0.8773585, b: 0.8773585, a: 0}
 --- !u!4 &1186157878
 Transform:
   m_ObjectHideFlags: 0
